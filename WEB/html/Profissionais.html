@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Blog Meraki</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/WEB/CSS/Profissionais.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+
+<body>
+
+
+<header>
+  <!-- Barra de Navegação Onde vai ficar o menu e os icons -->
+  <div class="logo">
+    <img src="" alt="Logo da Clinica" id="logo-header">
+  </div>
+
+  <nav>
+    <ul id="menu"></ul>
+  </nav>
+
+  <div class="icons" id="icons"></div>
+</header>
+
+
+<!-- Imagem da Capa -->
+<div class="principal">
+  <img id="capa-img" src="" alt="Uma equipe de esteticistas Juntas">
+  <div class="texto">
+    <span id="capa-titulo"></span><br>
+    <p id="capa-subtitulo"></p>
+  </div>
+</div>
+
+
+<!-- Profissionais Listados com suas especialidades -->
+<div id="lista-profissionais"></div>
+
+<h2 id="form-titulo">Formulário de Dúvidas</h2>
+<!-- Formulário -->
+<form id="form-duvidas">
+  <h2>Contato</h2>
+  <input type="text" name="nome_completo" placeholder="Seu nome" required>
+  <input type="email" name="email" placeholder="Seu email" required>
+  <input type="text" name="telefone" placeholder="Telefone (opcional)">
+  <textarea name="duvida" placeholder="Mensagem" rows="5" required></textarea>
+  <button type="submit">Enviar</button>
+</form>
+
+<!-- Modais -->
+<div id="modal-confirmacao" class="modal">
+  <div class="modal-box">
+    <h3>Confirme os dados</h3>
+
+    <p id="confirma-nome"></p>
+    <p id="confirma-email"></p>
+    <p id="confirma-telefone"></p>
+    <p id="confirma-duvida"></p>
+
+    <div class="botoes">
+      <button id="btn-confirmar-envio" class="btn-modal">Enviar</button>
+      <button id="btn-cancelar-envio" class="btn-modal">Cancelar</button>
+    </div>
+  </div>
+</div>
+
+<div id="modal-sucesso" class="modal">
+  <h3>Enviado com Sucesso</h3>
+</div>
+
+<div id="modal-cancelado" class="modal">
+  <h3>Envio Cancelado</h3>
+</div>
+
+
+
+<!-- Contatos/endereço/parte final do site...-->
+<section class="contatos">
+  <img src="" alt="Logo da Clinica" class="logo-secao" id="contato-logo">
+
+  <div class="info" id="contato-info"></div>
+
+  <p class="copy" id="copy"></p>
+</section>
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-database-compat.js"></script>
+
+<!-- EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+  emailjs.init("tVG8UGLH62pvjyZ-B"); 
+</script>
+
+<!--  JS -->
+<script src="/WEB/html/Profissionais.js" defer></script>
+
+</body>
