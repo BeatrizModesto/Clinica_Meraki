@@ -1,0 +1,86 @@
+{
+  "capa": {
+    "imagem": "/WEB/Imagens/Principal.jpg",
+    "subtitulo": "Blog",
+    "titulo": "Meraki"
+  },
+  "contatos": {
+    "copy": "© 2025 Clínica Meraki — Todos os direitos reservados.",
+    "linha1": {
+      "icone": "/WEB/Imagens/Localização.png",
+      "texto": "Av. Wellman Galvão de França Rangel, 1295 - Swiss Park, Campinas/SP"
+    },
+    "linha2": {
+      "icone": "/WEB/Imagens/whatsapp.png",
+      "texto": "(19) 97146-2301"
+    },
+    "linha3": {
+      "icone": "/WEB/Imagens/email.png",
+      "texto": "clinicamercampinas.com.br"
+    },
+    "logo": "/WEB/Imagens/logo.png"
+  },
+  "header": {
+    "icones": [
+      {
+        "imagem": "/WEB/Imagens/whatsapp.png",
+        "link": ""
+      },
+      {
+        "imagem": "/WEB/Imagens/instagram.png",
+        "link": "https://www.instagram.com/clinicamerakicampinas/"
+      },
+      {
+        "imagem": "/WEB/Imagens/facebook.png",
+        "link": "https://www.facebook.com/Clinica.Meraki.estetica.e.saude"
+      }
+    ],
+    "logo": "/WEB/Imagens/logo.png",
+    "menu": [
+      {
+        "link": "#",
+        "nome": "Home"
+      },
+      {
+        "link": "#",
+        "nome": "Procedimentos"
+      },
+      {
+        "link": "/WEB/html/Profissionais.html",
+        "nome": "Profissionais"
+      },
+      {
+        "link": "/WEB/html/blog.html",
+        "nome": "Nosso Blog"
+      },
+      {
+        "link": "#",
+        "nome": "Outros Serviços"
+      }
+    ]
+  },
+  "posts": {
+    "cards": [
+      {
+        "botao": "Leia mais",
+        "imagem": "/WEB/Imagens/Bioestimulador.jpg",
+        "link": "/WEB/html/Bioestimulador.html"
+      },
+      {
+        "botao": "Leia mais",
+        "imagem": "/WEB/Imagens/Drenagem.jpg",
+        "link": "/WEB/html/Drenagem.html"
+      },
+      {
+        "botao": "Leia mais",
+        "imagem": "/WEB/Imagens/Rinomodelação.jpg",
+        "link": "/WEB/html/Rinomodelação.html"
+      },
+      {
+        "botao": "Leia mais",
+        "imagem": "/WEB/Imagens/preenchimento.jpg",
+        "link": "/WEB/html/Preenchimento.html"
+      }
+    ]
+  }
+}

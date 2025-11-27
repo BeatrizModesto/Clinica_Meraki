@@ -1,0 +1,90 @@
+{
+  "rinomodelacao": {
+    "beneficios": {
+      "itens": [
+        {
+          "texto": "Corrige desníveis e deixa o nariz mais alinhado, proporcionando equilíbrio ao rosto.",
+          "titulo": "Harmoniza o perfil"
+        },
+        {
+          "texto": "O preenchedor sustenta e melhora o ângulo da ponta, oferecendo um aspecto mais refinado.",
+          "titulo": "Elevação e definição da ponta"
+        },
+        {
+          "texto": "A mudança é visível na hora, sem tempo de recuperação e com efeito controlado.",
+          "titulo": "Resultado imediato"
+        }
+      ],
+      "titulo": "Benefícios"
+    },
+    "capa": {
+      "imagem": "/WEB/Imagens/RinomodelacaoPrincipal.jpg",
+      "titulo": "Rinomodelação"
+    },
+    "contatos": {
+      "copy": "© 2025 Clínica Meraki — Todos os direitos reservados.",
+      "linha1": {
+        "icone": "/WEB/Imagens/Localização.png",
+        "texto": "Av. Wellman Galvão de França Rangel, 1295 - Swiss Park, Campinas/SP"
+      },
+      "linha2": {
+        "icone": "/WEB/Imagens/whatsapp.png",
+        "texto": "(19) 97146-2301"
+      },
+      "linha3": {
+        "icone": "/WEB/Imagens/email.png",
+        "texto": "clinicamercampinas.com.br"
+      },
+      "logo": "/WEB/Imagens/logo.png"
+    },
+    "header": {
+      "icones": [
+        {
+          "imagem": "/WEB/Imagens/whatsapp.png",
+          "link": ""
+        },
+        {
+          "imagem": "/WEB/Imagens/instagram.png",
+          "link": "https://www.instagram.com/clinicamerakicampinas/"
+        },
+        {
+          "imagem": "/WEB/Imagens/facebook.png",
+          "link": "https://www.facebook.com/Clinica.Meraki.estetica.e.saude"
+        }
+      ],
+      "logo": "/WEB/Imagens/logo.png",
+      "menu": [
+        {
+          "link": "#",
+          "nome": "Home"
+        },
+        {
+          "link": "#",
+          "nome": "Procedimentos"
+        },
+        {
+          "link": "/WEB/html/Profissionais.html",
+          "nome": "Profissionais"
+        },
+        {
+          "link": "/WEB/html/blog.html",
+          "nome": "Nosso Blog"
+        },
+        {
+          "link": "#",
+          "nome": "Outros Serviços"
+        }
+      ]
+    },
+    "introducao": {
+      "imagem": "/WEB/Imagens/Rinomodelacao1.jpg",
+      "texto": "A rinomodelação é um procedimento não cirúrgico que utiliza preenchedores para corrigir assimetrias, elevar a ponta, alinhar o dorso e melhorar o contorno nasal. A técnica oferece impacto estético imediato sem necessidade de cirurgia.",
+      "titulo": "Rinomodelação"
+    },
+    "pagina": "Rinomodelação",
+    "sessaoFinal": {
+      "imagem": "/WEB/Imagens/Rinomodelacao2.jpg",
+      "texto": "A rinomodelação é uma opção segura e eficaz para quem deseja melhorar o formato do nariz sem passar por cirurgia. O procedimento proporciona naturalidade, equilíbrio facial e resultados imediatos."
+    }
+  }
+}

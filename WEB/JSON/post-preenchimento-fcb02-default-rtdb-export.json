@@ -1,0 +1,90 @@
+{
+  "Preenchimento": {
+    "beneficios": {
+      "itens": [
+        {
+          "texto": "O preenchimento redefine o contorno natural dos lábios, melhora a projeção facial e equilibra a harmonia do sorriso com uma aparência mais elegante e sem exageros.",
+          "titulo": "Aumento de volume e definição"
+        },
+        {
+          "texto": "Por ser feito com ácido hialurônico — uma substância naturalmente presente no organismo — o procedimento proporciona hidratação intensa, deixando os lábios mais macios e com aparência saudável.",
+          "titulo": "Hidratação profunda"
+        },
+        {
+          "texto": "Pequenas diferenças entre as linhas dos lábios podem ser corrigidas, garantindo um resultado mais uniforme e natural.",
+          "titulo": "Correção de assimetrias"
+        }
+      ],
+      "titulo": "Benefícios"
+    },
+    "capa": {
+      "imagem": "/WEB/Imagens/CapaPost.jpg",
+      "titulo": "Prenchimento Labial"
+    },
+    "contatos": {
+      "copy": "© 2025 Clínica Meraki — Todos os direitos reservados.",
+      "linha1": {
+        "icone": "/WEB/Imagens/Localização.png",
+        "texto": "Av. Wellman Galvão de França Rangel, 1295 - Swiss Park, Campinas/SP"
+      },
+      "linha2": {
+        "icone": "/WEB/Imagens/whatsapp.png",
+        "texto": "(19) 97146-2301"
+      },
+      "linha3": {
+        "icone": "/WEB/Imagens/email.png",
+        "texto": "clinicamercampinas.com.br"
+      },
+      "logo": "/WEB/Imagens/logo.png"
+    },
+    "header": {
+      "icones": [
+        {
+          "imagem": "/WEB/Imagens/whatsapp.png",
+          "link": ""
+        },
+        {
+          "imagem": "/WEB/Imagens/instagram.png",
+          "link": "https://www.instagram.com/clinicamerakicampinas/"
+        },
+        {
+          "imagem": "/WEB/Imagens/facebook.png",
+          "link": "https://www.facebook.com/Clinica.Meraki.estetica.e.saude"
+        }
+      ],
+      "logo": "/WEB/Imagens/logo.png",
+      "menu": [
+        {
+          "link": "#",
+          "nome": "Home"
+        },
+        {
+          "link": "#",
+          "nome": "Procedimentos"
+        },
+        {
+          "link": "/WEB/html/Profissionais.html",
+          "nome": "Profissionais"
+        },
+        {
+          "link": "/WEB/html/blog.html",
+          "nome": "Nosso Blog"
+        },
+        {
+          "link": "#",
+          "nome": "Outros Serviços"
+        }
+      ]
+    },
+    "introducao": {
+      "imagem": "/WEB/Imagens/Boca.jpg",
+      "texto": "O preenchimento labial é um dos procedimentos estéticos mais procurados atualmente. Ele tem como objetivo realçar a beleza natural dos lábios, corrigir pequenas assimetrias e proporcionar um aspecto mais jovem e harmonioso ao rosto.",
+      "titulo": "Prenchimento Labial"
+    },
+    "pagina": "Preenchimento",
+    "sessaoFinal": {
+      "imagem": "/WEB/Imagens/Boca2.jpg",
+      "texto": "O preenchimento labial é uma excelente opção para quem busca naturalidade, harmonia e rejuvenescimento facial. Quando feito com técnica e bom senso, o resultado é delicado e elegante — realçando a beleza única de cada pessoa."
+    }
+  }
+}

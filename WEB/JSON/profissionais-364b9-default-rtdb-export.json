@@ -1,0 +1,190 @@
+{
+  "Profissionais": {
+    "capa": {
+      "imagem": "/WEB/Imagens/Profissionais.jpg",
+      "titulo": "Conheça nosso Profissionais"
+    },
+    "confirmacao_dados": {
+      "botoes": {
+        "cancelar_envio": {
+          "cor": "vermelho",
+          "texto": "Cancelar"
+        },
+        "confirmar_envio": {
+          "cor": "verde",
+          "texto": "Enviar"
+        }
+      },
+      "dados": {
+        "duvida": "",
+        "email": "",
+        "nome_completo": "",
+        "telefone": ""
+      },
+      "mensagem": "Confirme se os dados abaixo estão corretos:"
+    },
+    "contatos": {
+      "copy": "© 2025 Clínica Meraki — Todos os direitos reservados.",
+      "linha1": {
+        "icone": "/WEB/Imagens/Localização.png",
+        "texto": "Av. Wellman Galvão de França Rangel, 1295 - Swiss Park, Campinas/SP"
+      },
+      "linha2": {
+        "icone": "/WEB/Imagens/whatsapp.png",
+        "texto": "(19) 97146-2301"
+      },
+      "linha3": {
+        "icone": "/WEB/Imagens/email.png",
+        "texto": "clinicamercampinas.com.br"
+      },
+      "logo": "/WEB/Imagens/logo.png"
+    },
+    "formulario_duvidas": {
+      "botoes": {
+        "cancelar": {
+          "cor": "vermelho",
+          "texto": "Cancelar"
+        },
+        "confirmar": {
+          "cor": "verde",
+          "texto": "Confirmar"
+        }
+      },
+      "campos": [
+        {
+          "id": "nome_completo",
+          "label": "Nome Completo",
+          "obrigatorio": true,
+          "placeholder": "Digite seu nome completo",
+          "tipo": "text"
+        },
+        {
+          "id": "email",
+          "label": "Insira seu e-mail",
+          "obrigatorio": true,
+          "placeholder": "Digite seu email",
+          "tipo": "email"
+        },
+        {
+          "id": "telefone",
+          "label": "Telefone",
+          "obrigatorio": false,
+          "placeholder": "Digite seu telefone",
+          "tipo": "text"
+        },
+        {
+          "id": "duvida",
+          "label": "Sua Dúvida",
+          "obrigatorio": true,
+          "placeholder": "Escreva sua dúvida",
+          "tipo": "textarea"
+        }
+      ],
+      "titulo": "Tire suas Dúvidas"
+    },
+    "header": {
+      "icones": [
+        {
+          "imagem": "/WEB/Imagens/whatsapp.png",
+          "link": ""
+        },
+        {
+          "imagem": "/WEB/Imagens/instagram.png",
+          "link": "https://www.instagram.com/clinicamerakicampinas/"
+        },
+        {
+          "imagem": "/WEB/Imagens/facebook.png",
+          "link": "https://www.facebook.com/Clinica.Meraki.estetica.e.saude"
+        }
+      ],
+      "logo": "/WEB/Imagens/logo.png",
+      "menu": [
+        {
+          "link": "#",
+          "nome": "Home"
+        },
+        {
+          "link": "#",
+          "nome": "Procedimentos"
+        },
+        {
+          "link": "/WEB/html/Profissionais.html",
+          "nome": "Profissionais"
+        },
+        {
+          "link": "/WEB/html/blog.html",
+          "nome": "Nosso Blog"
+        },
+        {
+          "link": "#",
+          "nome": "Outros Serviços"
+        }
+      ]
+    },
+    "pagina": "Profissionais",
+    "profissionais": [
+      {
+        "descricao": "Conheça nossos procedimentos estéticos e descubra como podemos ajudá-lo(a) a realçar sua beleza e cuidar da sua pele e corpo.",
+        "imagem": "/WEB/Imagens/karla.jpg",
+        "nome": "Karla Furtado",
+        "procedimentos": [
+          "Criolipólise e Dermovac",
+          "Microagulhamento",
+          "Ultrafomer",
+          "Laser lavieen",
+          "Depilação a led",
+          "Criomodelagem 360",
+          "Criofrequencia",
+          "Limpeza de pele e Peelings",
+          "Redução de medidas",
+          "Tratamento para celulite",
+          "Estrias e Flacidez",
+          "Tratamentos para quedas de cabelos"
+        ]
+      },
+      {
+        "descricao": "Valéria Ferreira é uma psicóloga com vasta experiência no campo da psicologia clínica e da saúde mental. Sua paixão pela psicologia aliada à área da estética surgiu da crença de que o cuidado com a beleza e a autoestima estão intrinsecamente ligados ao equilíbrio emocional. Ela acredita que a estética vai além da aparência física e pode ser uma ferramenta poderosa para promover a saúde emocional e psicológica dos indivíduos",
+        "imagem": "/WEB/Imagens/Valeria.png",
+        "nome": "Valéria Ferreira",
+        "procedimentos": [
+          "Acolhimento e Escuta Empática",
+          "Autoestima e Imagem Corporal",
+          "Ansiedade e Nível Alto de Cortisol",
+          "Saúde Mental e Hábitos de Autocuidado"
+        ]
+      },
+      {
+        "descricao": "Especialista em realinhamento cutâneo, com vasta experiência na área da estética. Seus procedimentos são conhecidos por proporcionar resultados notáveis e duradouros. Abaixo estão alguns dos tratamentos relevantes que ela realiza:",
+        "imagem": "/WEB/Imagens/Kauany.png",
+        "nome": "Kauany Bellucco",
+        "procedimentos": [
+          "Insônia e Disbiose Intestinal",
+          "Tratamento facial: acne, manchas",
+          "Bruxismo/ DTM",
+          "Emagrecimento",
+          "Estresse e Ansiedade",
+          "TPM e Menopausa",
+          "Alergias, como rinite alérgica",
+          "Dores nipônicas ou agudas",
+          "Massagem Intraoral",
+          "Massagem com Guashas",
+          "Terapia com Cristais",
+          "Neurocosméticos",
+          "Aromaterapia",
+          "Manobras especiais de alongamento",
+          "Stiperterapia Auricula"
+        ]
+      }
+    ],
+    "retornos_envio": {
+      "cancelado": {
+        "mensagem": "O envio do formulário foi cancelado.",
+        "titulo": "Cancelado com Sucesso"
+      },
+      "sucesso": {
+        "mensagem": "Seu formulário foi enviado. Em breve entraremos em contato.",
+        "titulo": "Enviado com Sucesso"
+      }
+    }
+  }
+}
