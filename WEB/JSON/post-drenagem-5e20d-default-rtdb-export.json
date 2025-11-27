@@ -1,0 +1,90 @@
+{
+  "Drenagem": {
+    "beneficios": {
+      "itens": [
+        {
+          "texto": "A técnica auxilia na eliminação do excesso de líquidos retidos no corpo, diminuindo edemas e proporcionando leveza imediata.",
+          "titulo": "Redução de inchaço"
+        },
+        {
+          "texto": "Estimula o fluxo linfático e sanguíneo, ajudando na oxigenação dos tecidos e na sensação de bem-estar.",
+          "titulo": "Melhora da circulação"
+        },
+        {
+          "texto": "Os movimentos suaves e rítmicos promovem relaxamento profundo e aliviam desconfortos corporais.",
+          "titulo": "Alívio de tensões e relaxamento"
+        }
+      ],
+      "titulo": "Benefícios"
+    },
+    "capa": {
+      "imagem": "/WEB/Imagens/Drenagem1.jpg",
+      "titulo": "Drenagem Linfatica"
+    },
+    "contatos": {
+      "copy": "© 2025 Clínica Meraki — Todos os direitos reservados.",
+      "linha1": {
+        "icone": "/WEB/Imagens/Localização.png",
+        "texto": "Av. Wellman Galvão de França Rangel, 1295 - Swiss Park, Campinas/SP"
+      },
+      "linha2": {
+        "icone": "/WEB/Imagens/whatsapp.png",
+        "texto": "(19) 97146-2301"
+      },
+      "linha3": {
+        "icone": "/WEB/Imagens/email.png",
+        "texto": "clinicamercampinas.com.br"
+      },
+      "logo": "/WEB/Imagens/logo.png"
+    },
+    "header": {
+      "icones": [
+        {
+          "imagem": "/WEB/Imagens/whatsapp.png",
+          "link": ""
+        },
+        {
+          "imagem": "/WEB/Imagens/instagram.png",
+          "link": "https://www.instagram.com/clinicamerakicampinas/"
+        },
+        {
+          "imagem": "/WEB/Imagens/facebook.png",
+          "link": "https://www.facebook.com/Clinica.Meraki.estetica.e.saude"
+        }
+      ],
+      "logo": "/WEB/Imagens/logo.png",
+      "menu": [
+        {
+          "link": "#",
+          "nome": "Home"
+        },
+        {
+          "link": "#",
+          "nome": "Procedimentos"
+        },
+        {
+          "link": "/WEB/html/Profissionais.html",
+          "nome": "Profissionais"
+        },
+        {
+          "link": "/WEB/html/blog.html",
+          "nome": "Nosso Blog"
+        },
+        {
+          "link": "#",
+          "nome": "Outros Serviços"
+        }
+      ]
+    },
+    "introducao": {
+      "imagem": "/WEB/Imagens/Drenagem.jpg",
+      "texto": "A drenagem linfática é uma técnica manual que estimula o sistema linfático a eliminar líquidos, toxinas e inchaços. O método é suave, relaxante e traz benefícios tanto estéticos quanto terapêuticos, melhorando a circulação e o bem-estar geral.",
+      "titulo": "Drenagem Linfatica"
+    },
+    "pagina": "Drenagem",
+    "sessaoFinal": {
+      "imagem": "/WEB/Imagens/Drenagem2.jpg",
+      "texto": "A drenagem linfática é ideal para quem busca reduzir inchaço, melhorar a circulação e conquistar mais conforto no dia a dia. Um cuidado simples, eficaz e que transforma o bem-estar físico de forma natural."
+    }
+  }
+}

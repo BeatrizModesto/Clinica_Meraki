@@ -1,0 +1,90 @@
+{
+  "Bioestimulador": {
+    "beneficios": {
+      "itens": [
+        {
+          "texto": "O produto ativa as células responsáveis pela produção de colágeno, promovendo firmeza e sustentação gradual da pele.",
+          "titulo": "Estimula o colágeno natural"
+        },
+        {
+          "texto": "A pele ganha mais viço, uniformidade e elasticidade, reduzindo a aparência de poros dilatados e irregularidades.",
+          "titulo": "Melhora textura e qualidade da pele"
+        },
+        {
+          "texto": "O tratamento ajuda a combater a flacidez leve a moderada e suaviza rugas de forma progressiva e natural.",
+          "titulo": "Redução de flacidez e linhas finas"
+        }
+      ],
+      "titulo": "Benefícios"
+    },
+    "capa": {
+      "imagem": "/WEB/Imagens/BioestimuladorPrincipal.jpg",
+      "titulo": "Bioestimulador de Colágeno"
+    },
+    "contatos": {
+      "copy": "© 2025 Clínica Meraki — Todos os direitos reservados.",
+      "linha1": {
+        "icone": "/WEB/Imagens/Localização.png",
+        "texto": "Av. Wellman Galvão de França Rangel, 1295 - Swiss Park, Campinas/SP"
+      },
+      "linha2": {
+        "icone": "/WEB/Imagens/whatsapp.png",
+        "texto": "(19) 97146-2301"
+      },
+      "linha3": {
+        "icone": "/WEB/Imagens/email.png",
+        "texto": "clinicamercampinas.com.br"
+      },
+      "logo": "/WEB/Imagens/logo.png"
+    },
+    "header": {
+      "icones": [
+        {
+          "imagem": "/WEB/Imagens/whatsapp.png",
+          "link": ""
+        },
+        {
+          "imagem": "/WEB/Imagens/instagram.png",
+          "link": "https://www.instagram.com/clinicamerakicampinas/"
+        },
+        {
+          "imagem": "/WEB/Imagens/facebook.png",
+          "link": "https://www.facebook.com/Clinica.Meraki.estetica.e.saude"
+        }
+      ],
+      "logo": "/WEB/Imagens/logo.png",
+      "menu": [
+        {
+          "link": "#",
+          "nome": "Home"
+        },
+        {
+          "link": "#",
+          "nome": "Procedimentos"
+        },
+        {
+          "link": "/WEB/html/Profissionais.html",
+          "nome": "Profissionais"
+        },
+        {
+          "link": "/WEB/html/blog.html",
+          "nome": "Nosso Blog"
+        },
+        {
+          "link": "#",
+          "nome": "Outros Serviços"
+        }
+      ]
+    },
+    "introducao": {
+      "imagem": "/WEB/Imagens/Bioestimulador1.jpg",
+      "texto": "O bioestimulador de colágeno é um tratamento indicado para recuperar firmeza, melhorar a qualidade da pele e estimular a produção natural de colágeno. É uma opção eficaz para quem deseja rejuvenescimento progressivo, com resultados naturais e duradouros.",
+      "titulo": "Bioestimulador de Colágeno"
+    },
+    "pagina": "Bioestilmulador",
+    "sessaoFinal": {
+      "imagem": "/WEB/Imagens/Bioestimulador2.jpg",
+      "texto": "O bioestimulador de colágeno é ideal para quem busca rejuvenescimento contínuo e resultados naturais. Com aplicação correta, ele proporciona uma melhora visível na firmeza, textura e qualidade da pele, valorizando a beleza de forma sutil e progressiva."
+    }
+  }
+}
