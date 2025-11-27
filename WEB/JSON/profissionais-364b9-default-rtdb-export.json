@@ -100,11 +100,11 @@
       "logo": "/WEB/Imagens/logo.png",
       "menu": [
         {
-          "link": "#",
+          "link": "/WEB/html/home.html",
           "nome": "Home"
         },
         {
-          "link": "#",
+          "link": "/WEB/html/Procedimentos.html",
           "nome": "Procedimentos"
         },
         {
@@ -116,7 +116,7 @@
           "nome": "Nosso Blog"
         },
         {
-          "link": "#",
+          "link": "/WEB/html/Outros_Servicos",
           "nome": "Outros Serviços"
         }
       ]

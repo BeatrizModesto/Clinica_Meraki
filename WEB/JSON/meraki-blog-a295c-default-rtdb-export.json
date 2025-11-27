@@ -38,11 +38,11 @@
     "logo": "/WEB/Imagens/logo.png",
     "menu": [
       {
-        "link": "#",
+        "link": "/WEB/html/home.html",
         "nome": "Home"
       },
       {
-        "link": "#",
+        "link": "/WEB/html/Procedimentos",
         "nome": "Procedimentos"
       },
       {
@@ -54,7 +54,7 @@
         "nome": "Nosso Blog"
       },
       {
-        "link": "#",
+        "link": "/WEB/html/Outros_Servicos.html",
         "nome": "Outros Serviços"
       }
     ]
