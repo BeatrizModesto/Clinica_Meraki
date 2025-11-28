@@ -42,8 +42,21 @@
         "nome": "Home"
       },
       {
-        "link": "/WEB/html/Procedimentos",
-        "nome": "Procedimentos"
+        "nome": "Procedimentos",
+        "submenu": [
+          {
+            "nome": "Corporais",
+            "link": "Proc_Corporal.html"
+          },
+          {
+            "nome": "Faciais",
+            "link": "Proc_Facial.html"
+          },
+          {
+            "nome": "Capilares",
+            "link": "Proc_Capilares.html"
+          }
+        ]
       },
       {
         "link": "/WEB/html/Profissionais.html",

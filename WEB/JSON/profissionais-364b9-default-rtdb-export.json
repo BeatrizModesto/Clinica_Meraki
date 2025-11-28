@@ -99,28 +99,41 @@
       ],
       "logo": "/WEB/Imagens/logo.png",
       "menu": [
-        {
-          "link": "/WEB/html/home.html",
-          "nome": "Home"
-        },
-        {
-          "link": "/WEB/html/Procedimentos.html",
-          "nome": "Procedimentos"
-        },
-        {
-          "link": "/WEB/html/Profissionais.html",
-          "nome": "Profissionais"
-        },
-        {
-          "link": "/WEB/html/blog.html",
-          "nome": "Nosso Blog"
-        },
-        {
-          "link": "/WEB/html/Outros_Servicos",
-          "nome": "Outros Serviços"
-        }
-      ]
-    },
+      {
+        "link": "/WEB/html/home.html",
+        "nome": "Home"
+      },
+      {
+        "nome": "Procedimentos",
+        "submenu": [
+          {
+            "nome": "Corporais",
+            "link": "Proc_Corporal.html"
+          },
+          {
+            "nome": "Faciais",
+            "link": "Proc_Facial.html"
+          },
+          {
+            "nome": "Capilares",
+            "link": "Proc_Capilares.html"
+          }
+        ]
+      },
+      {
+        "link": "/WEB/html/Profissionais.html",
+        "nome": "Profissionais"
+      },
+      {
+        "link": "/WEB/html/blog.html",
+        "nome": "Nosso Blog"
+      },
+      {
+        "link": "/WEB/html/Outros_Servicos.html",
+        "nome": "Outros Serviços"
+      }
+    ]
+  },
     "pagina": "Profissionais",
     "profissionais": [
       {
