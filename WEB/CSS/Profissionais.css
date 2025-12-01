@@ -121,7 +121,7 @@ nav a:hover {
 /* Imagem principal */
 .principal img {
   width: 100%;
-  height: 1000px;
+  height: 550px;
   object-fit: cover;
 }
 

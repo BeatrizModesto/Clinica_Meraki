@@ -44,11 +44,9 @@ header {
   
   background: rgba(0, 0, 0, 0.95) !important;
   padding: 10px 0;
-  border-radius: 12px;
   border: none;
   min-width: 200px;
   backdrop-filter: blur(4px);
-
   transform: translateY(10px);
   opacity: 0;
   visibility: hidden;
