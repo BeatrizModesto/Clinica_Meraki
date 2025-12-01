@@ -77,29 +77,29 @@ function montarProfissionais(lista) {
   `).join("");
 }
 
-// CONTATOS
 function montarContatos(contato) {
- document.getElementById("contato-logo").src = contato.logo;
+  document.getElementById("contato-logo").src = contato.logo;
 
- document.getElementById("contato-info").innerHTML = `
-  <div class="linha">
-    <img src="${contato.linha1.icone}" class="icon">
-    <span>${contato.linha1.texto}</span>
-  </div>
+  document.getElementById("contato-info").innerHTML = `
+    <div class="linha">
+      <i class="${contato.linha1.icone.replaceAll('_', ' ')} icon"></i>
+      <span>${contato.linha1.texto}</span>
+    </div>
 
-  <div class="linha">
-    <img src="${contato.linha2.icone}" class="icon">
-    <span>${contato.linha2.texto}</span>
-  </div>
+    <div class="linha">
+      <i class="${contato.linha2.icone.replaceAll('_', ' ')} icon"></i>
+      <span>${contato.linha2.texto}</span>
+    </div>
 
-  <div class="linha">
-    <img src="${contato.linha3.icone}" class="icon">
-    <span>${contato.linha3.texto}</span>
-  </div>
+    <div class="linha">
+      <i class="${contato.linha3.icone.replaceAll('_', ' ')} icon"></i>
+      <span>${contato.linha3.texto}</span>
+    </div>
   `;
-  
+
   document.getElementById("copy").textContent = contato.copy;
 }
+
 
 // FORMULÁRIO + MODAIS
 document.addEventListener("DOMContentLoaded", () => {

@@ -21,22 +21,22 @@
       "imagem": "/WEB/Imagens/CapaPost.jpg",
       "titulo": "Prenchimento Labial"
     },
-    "contatos": {
-      "copy": "© 2025 Clínica Meraki — Todos os direitos reservados.",
-      "linha1": {
-        "icone": "/WEB/Imagens/Localização.png",
-        "texto": "Av. Wellman Galvão de França Rangel, 1295 - Swiss Park, Campinas/SP"
-      },
-      "linha2": {
-        "icone": "/WEB/Imagens/whatsapp.png",
-        "texto": "(19) 97146-2301"
-      },
-      "linha3": {
-        "icone": "/WEB/Imagens/email.png",
-        "texto": "clinicamercampinas.com.br"
-      },
-      "logo": "/WEB/Imagens/logo.png"
-    },
+   "contatos": {
+  "copy": "© 2025 Clínica Meraki — Todos os direitos reservados.",
+  "linha1": {
+    "icone": "bi_bi-geo-alt-fill",
+    "texto": "Av. Wellman Galvão de França Rangel, 1295 - Swiss Park, Campinas/SP"
+  },
+  "linha2": {
+    "icone": "fa-solid_fa-phone",
+    "texto": "(19) 97146-2301"
+  },
+  "linha3": {
+    "icone": "bi_bi-envelope-fill",
+    "texto": "clinicamercampinas.com.br"
+  },
+  "logo": "/WEB/Imagens/logo.png"
+},
     "header": {
       "icones": [
         {

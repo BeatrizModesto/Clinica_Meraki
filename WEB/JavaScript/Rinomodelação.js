@@ -119,27 +119,29 @@ function montarSessaoFinal(final) {
   `;
 }
 
-// CONTATOS 
-function montarContatos(ct) {
-  document.getElementById("contato-logo").src = ct.logo;
+function montarContatos(contato) {
+  document.getElementById("contato-logo").src = contato.logo;
 
   document.getElementById("contato-info").innerHTML = `
     <div class="linha">
-      <img src="${ct.linha1.icone}" class="icon">
-      <span>${ct.linha1.texto}</span>
+      <i class="${contato.linha1.icone.replaceAll('_', ' ')} icon"></i>
+      <span>${contato.linha1.texto}</span>
     </div>
+
     <div class="linha">
-      <img src="${ct.linha2.icone}" class="icon">
-      <span>${ct.linha2.texto}</span>
+      <i class="${contato.linha2.icone.replaceAll('_', ' ')} icon"></i>
+      <span>${contato.linha2.texto}</span>
     </div>
+
     <div class="linha">
-      <img src="${ct.linha3.icone}" class="icon">
-      <span>${ct.linha3.texto}</span>
+      <i class="${contato.linha3.icone.replaceAll('_', ' ')} icon"></i>
+      <span>${contato.linha3.texto}</span>
     </div>
   `;
 
-  document.getElementById("copy").textContent = ct.copy;
+  document.getElementById("copy").textContent = contato.copy;
 }
+
  const vlibrasContainer = document.createElement("div");
       vlibrasContainer.setAttribute("vw", "");
       vlibrasContainer.classList.add("enabled");
