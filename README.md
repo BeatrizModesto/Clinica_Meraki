@@ -80,7 +80,15 @@ Caso futuramente sejam implementados testes E2E, eles servirão para validar:
 
 *(Ainda não implementado)*
 
----
+-- 
+## 🤟 Acessibilidade
+
+O projeto também considera boas práticas de acessibilidade, incluindo:
+
+- **Suporte a LIBRAS**, utilizando ferramentas como **VLibras** para tradução em língua de sinais;
+- **Contraste adequado** entre texto e fundo;
+- **Navegação simples e intuitiva**, facilitando o uso para todos os públicos;
+- **Textos alternativos** em todas as imagens (`alt="descrição"`), garantindo clareza para leitores de tela;
 
 ## 📦 Implantação — Firebase Hosting
 
