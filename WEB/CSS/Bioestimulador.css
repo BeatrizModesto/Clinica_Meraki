@@ -307,26 +307,65 @@ nav a:hover {
 }
 
 
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  ul {
-    flex-direction: row; 
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px; 
-  }
+/* BOTÃO HAMBURGUER */
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
 
+/* MOBILE */
+@media (max-width: 576px) {
+  header { 
+  flex-direction: column; 
+  padding: 15px 20px; 
+}
+  .logo img 
+  { 
+  height: 55px;
+  margin-bottom: 10px; 
+  }
+  .menu-toggle {
+  display: block; 
+  }
+  .navbar {
+  display: none;
+  width: 100%;
+  background: rgba(0,0,0,0.85); 
+  padding: 15px 0;
+   }
+  .navbar.active { 
+  display: block; 
+  }
+  .navbar-nav {
+    flex-direction: column !important;
+    gap: 15px; 
+    text-align: center; 
+  }
+  .principal img {
+    height: 250px; 
+  }
   .texto {
-    font-size: 36px;
-    left: 5%;
-    padding: 15px 25px;
+    position: static; 
+    font-size: 24px;
+    padding: 18px; 
+    margin: 12px;
+    text-align: center;
+      }
+  .texto p 
+  { 
+  font-size: 18px; 
   }
-
-  .texto p {
-    font-size: 28px;
+  .card {
+    width: 90%; 
   }
- }
+  .card img {
+    height: 220px;
+   }
+  .contatos .linha { 
+    flex-direction: column; font-size: 16px;
+   }
+}
