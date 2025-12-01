@@ -1,162 +1,194 @@
-/* Base do Layout da Página */
+/* BASE */
 body {
- margin: 0;
- font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
 }
 
-/* Header fixo sobre o topo */
+/* HEADER */
 header {
- position: absolute;
- top: 0;
- width: 100%;
- display: flex;
- align-items: center;
- justify-content: space-between;
- background-color: rgba(0, 0, 0, 0.6);
- padding: 10px 40px;
- box-sizing: border-box;
- z-index: 10;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(12px);
+  padding: 10px 40px;
+  border-bottom: 2px solid #fae952;
+  z-index: 1000;
 }
 
 .navbar-nav .nav-link {
   color: #fff;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 600;
+  transition: color 0.25s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fae952 !important;
+}
+
+
+.nav-item.dropdown {
+  position: relative;
 }
 
 .navbar-nav .dropdown-menu {
-  background: #0d0d0d !important;
+  position: absolute !important;
+  top: 45px !important;        
+  left: 0;
+  
+  background: rgba(0, 0, 0, 0.95) !important;
+  padding: 10px 0;
   border-radius: 12px;
-  padding: 12px 0;
   border: none;
+  min-width: 200px;
+  backdrop-filter: blur(4px);
+
+  transform: translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.25s ease-in-out;
 }
 
+
+.nav-item.dropdown:hover .dropdown-menu {
+  transform: translateY(0px);
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ITENS DO DROPDOWN */
 .navbar-nav .dropdown-item {
-  color: #ccc !important;
-  padding: 10px 20px;
+  padding: 14px 22px;
+  font-size: 16px;
+  color: #e5e5e5 !important;
+  transition: 0.2s;
 }
 
 .navbar-nav .dropdown-item:hover {
-  background: rgba(255,255,255,0.10) !important;
-  color: #fff !important;
+  background: rgba(255,255,255,0.15) !important;
+  color: #fae952 !important;
 }
-
-/* Ajuste no tamanho da logo */
+/* LOGO */
 .logo img {
   height: 100px;
 }
 
-/* Menu horizontal */
-ul{
+/* MENU PRINCIPAL */
+ul {
   list-style: none;
-  display:flex;
+  display: flex;
   align-items: center;
-  gap: 60px;
+  gap: 70px;
 }
 
-/* Estilo dos itens do menu */
 li {
-  text-decoration: none;
-  color: var(--text-white);
-  font-weight: 500;
-  font-size: 16px;
-  transition: color 0.3s ease;
+  font-size: 17px;
+  font-weight: 600;
 }
 
-/* Estilo dos links */
-a{
+a {
   text-decoration: none;
   color: #fff;
-  font-weight: 600;
-  font-size: 16px;
-  transition: color 0.3s;
+  transition: 0.3s;
 }
 
- /* Destaque no hover */
 nav a:hover {
-  color: #f5c742;
+  color: #fae952;
 }
 
-/* Ícones do header  que ficam na barra de navegação*/
+/* ICONS */
 .icons img {
-  width: 25px;
+  width: 26px;
   margin-left: 15px;
-  filter: brightness(0) invert(1);
-  transition: transform 0.3s;
   cursor: pointer;
+  filter: brightness(0) invert(1);
+  transition: 0.3s;
 }
 
-/* Imagem principal */
+.icons img:hover {
+  transform: scale(1.15);
+  filter: brightness(0) invert(1) sepia(1) saturate(2000%) hue-rotate(10deg);
+}
+
+/* IMAGEM PRINCIPAL */
 .principal img {
   width: 100%;
-  height: 1000px;
+  height: 550px;
   object-fit: cover;
+  filter: brightness(85%);
 }
 
-/* Texto de destaque que fica imagem */
+
 .texto {
   position: absolute;
-  top: 60%;
+  top: 45%;
   left: 10%;
-  background-color: rgba(255, 255, 255, 0.25);
-  padding: 25px 35px;
+  background-color: rgba(255, 255, 255, 0.18);
+  padding: 35px 45px;
+  border-radius: 20px;
   font-family: 'Cinzel Decorative', cursive;
-  font-size: 50px;
-  color: #f5c742;
+  font-size: 48px;
+  color: #f5d15c;
   line-height: 1.1;
+  backdrop-filter: blur(4px);
 }
 
-/* Subtítulo */
 .texto p {
   margin: 0;
-  font-size: 40px;
-  color: #f5c742;
+  font-size: 42px;
+  color: #f5d15c;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
 
-/* Grade de post/cards */
+/* CARDS */
 #cards {
   display: flex;
   justify-content: center;
-  gap: 20px;
-  padding: 40px 0;
+  gap: 25px;
+  padding: 50px 0;
   flex-wrap: wrap;
 }
 
-/* Estrutura dos post/card */
 .card {
   width: 250px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
-/* Imagem do post/card */
 .card img {
   width: 100%;
-  height: 450px;
+  height: 420px;
   object-fit: cover;
-  border-radius: 20px;
-  display: block;
+  border-radius: 12px;
 }
 
-/* Botão do post/card */
 .card button {
   margin-top: 12px;
   padding: 10px 20px;
   border: none;
-  background-color: #e1c6119c;
-  color: white;
+  background-color: #000;
+  color: #fff;
   font-size: 16px;
-  border-radius: 10px;
+  font-weight: 500;
+  border-radius: 70px;
   cursor: pointer;
   transition: 0.2s;
 }
 
 .card button:hover {
-  background-color: #3636339c;
+  background-color: #fae952;
+  transform: scale(1.05);
 }
 
-/* Seção de contatos */
+/* CONTATOS */
 .contatos {
   background: #000;
   padding: 50px 20px;
@@ -164,54 +196,38 @@ nav a:hover {
   color: #fff;
 }
 
-/* Logo da Sessão de contatos */
+.contatos i {
+  color: #fae952 !important;
+  font-size: 22px;
+}
+
 .logo-secao {
   width: 150px;
   margin-bottom: 30px;
 }
 
-/* Linhas de informações */
-.linha {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  margin: 15px 0;
-}
-
-/* Texto das linhas */
-.linha span {
-  font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-/* Texto de direitos autorais */
-.copy {
-  margin-top: 40px;
-  font-size: 14px;
-  opacity: 0.8;
-}
+/* RESPONSIVIDADE */
+   
 
 @media (max-width: 768px) {
   header {
     flex-direction: column;
     align-items: center;
   }
-  
+
   ul {
-    flex-direction: row; 
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px; 
+    gap: 25px;
   }
 
   .texto {
-    font-size: 36px;
+    font-size: 34px;
     left: 5%;
-    padding: 15px 25px;
+    padding: 18px 25px;
+    top: 55%;
   }
 
   .texto p {
-    font-size: 28px;
+    font-size: 26px;
   }
- }
+}

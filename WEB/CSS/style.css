@@ -1,13 +1,15 @@
 body {
-  font-family: 'Poppins', sans-serif;
+    margin: 0;
+  font-family: 'Montserrat', sans-serif;
   background-color: #fff;
 }
 
 /* NAVBAR */
 .navbar {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color:  rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(5px);
   border-bottom: 2px solid #fae952;
+  
 }
 
 .navbar-brand img {
@@ -15,10 +17,13 @@ body {
 }
 
 .nav-link {
-  color: #fff !important;
-  font-weight: 500;
-  margin: 0 10px;
-  transition: color 0.3s;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  transition: color 0.25s;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
 }
 
 .nav-link:hover {
@@ -221,7 +226,7 @@ i {
 
 /* BACKGROUND PRINCIPAL */
 #principal {
-  background-image: url("../img/MERAKI.jpg");
+  background-image: url("/WEB/Imagens/meraki.PNG");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -315,11 +320,11 @@ i {
 #principal_pf {
   min-height: 70vh;
   padding-top: 100px;
-  background-image: url("../img/PF.jpg");
+  background-image: url("/WEB/Imagens/PF.jpg");
 }
 
 #principal_pc {
-  background-image: url("../img/PC_copia.jpg");
+  background-image: url("/WEB/Imagens/PC_copia.jpg");
   background-size: 110%;
   height: 70vh;
 }
@@ -327,19 +332,19 @@ i {
 #principal_outrosServicos {
   min-height: 60vh;
   padding-top: 90px;
-  background-image: url("../img/OutrosServicos.png");
+  background-image: url("/WEB/Imagens/OutrosServicos.png");
 }
 
 #principal_pcap {
   min-height: 70vh;
   padding-top: 100px;
-  background-image: url("../img/capilar.jpeg");
+  background-image: url("/WEB/Imagens/capilar.jpeg");
 }
 
 #principal_agend {
   min-height: 90vh;
   padding-top: 100px;
-  background-image: url("../img/agendamento.jpg");
+  background-image: url("/WEB/Imagens/agendamento.jpg");
 }
 
 /* Modal */
