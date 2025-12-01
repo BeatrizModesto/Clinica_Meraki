@@ -1,4 +1,5 @@
 body {
+    margin: 0;
   font-family: 'Montserrat', sans-serif;
   background-color: #fff;
 }
@@ -8,6 +9,7 @@ body {
   background-color:  rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(5px);
   border-bottom: 2px solid #fae952;
+  
 }
 
 .navbar-brand img {
@@ -15,10 +17,13 @@ body {
 }
 
 .nav-link {
-  color: #fff !important;
-  font-weight: 500;
-  margin: 0 10px;
-  transition: color 0.3s;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  transition: color 0.25s;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
 }
 
 .nav-link:hover {
