@@ -18,6 +18,7 @@ header {
   padding: 10px 40px;
   border-bottom: 2px solid #fae952;
   z-index: 1000;
+  height: 15%;
 }
 
 .navbar-nav .nav-link {
@@ -75,7 +76,7 @@ header {
 }
 /* LOGO */
 .logo img {
-  height: 100px;
+  height: 75px;
 }
 
 /* MENU PRINCIPAL */
